@@ -10,7 +10,7 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
 
 - Create a folder `/usr/share/schemes` and a subfolder `/usr/share/schemes/x3d`.
 - Download the [X3D schema package](https://www.web3d.org/specifications/x3d.all.validation.zip) from the official website and put it in the `/usr/share/schemes/x3d/` folder.
-- Extract the package so that all XSD files are in the `/usr/share/schemes/x3d/` folder, e. g. `/usr/share/schemes/x3d/x3d-3.3.xsd`.
+- Extract the package so that all XSD files are in the `/usr/share/schemes/x3d/` root folder, e. g. `/usr/share/schemes/x3d/x3d-3.3.xsd`.
 
 ### 2. Create a new validation command
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/fpcommand/create/).
