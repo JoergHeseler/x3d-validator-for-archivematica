@@ -6,7 +6,7 @@
 
 To install the **x3d_validator_for_archivematica** script, follow these steps:
 
-### 1. Download the official X3S schemas 
+### 1. Download the official X3D schemas 
 
 - Create a folder `/usr/share/schemes` and a subfolder `/usr/share/schemes/x3d`.
 - Download the [X3D schema package](https://www.web3d.org/specifications/x3d.all.validation.zip) from the official website and put it in the `/usr/share/schemes/x3d/` folder.
