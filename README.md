@@ -1,5 +1,9 @@
 # x3d_validator_for_archivematica
- 
+
+## Dependencies
+
+[Archivematica 1.13.2](https://github.com/artefactual/archivematica/releases/tag/v1.13.2) was used to analyze, design, develop and test this script.
+
 ## Related projects
 
 - [dae_validator_for_archivematica](https://github.com/JoergHeseler/dae_validator_for_archivematica)
