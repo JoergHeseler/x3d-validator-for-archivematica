@@ -1,5 +1,7 @@
 # x3d_validator_for_archivematica
 
+**x3d_validator_for_archivematica** is a script that enables [Archivematica](https://www.archivematica.org/) to validate X3D files.
+
 ## Dependencies
 
 [Archivematica 1.13.2](https://github.com/artefactual/archivematica/releases/tag/v1.13.2) was used to analyze, design, develop and test this script.
