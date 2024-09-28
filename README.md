@@ -30,7 +30,7 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
     - **Command**: Select **Validate using x3d_validator**.
 - Click **Save**.
 
-### 3. Create a new validation rule for X3D 3.1
+### 4. Create a new validation rule for X3D 3.1
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
@@ -38,7 +38,7 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
     - **Command**: Select **Validate using x3d_validator**.
 - Click **Save**.
 
-### 3. Create a new validation rule for X3D 3.2
+### 5. Create a new validation rule for X3D 3.2
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
@@ -46,7 +46,7 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
     - **Command**: Select **Validate using x3d_validator**.
 - Click **Save**.
 
-### 3. Create a new validation rule for X3D 3.3
+### 6. Create a new validation rule for X3D 3.3
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
