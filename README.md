@@ -60,7 +60,7 @@ To test this validator, you can use the sample X3D files located in the [`test`]
 
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
-Files with no errors end with the filename `_valid` and should pass validation with this script (i. e. return error code **0**) when validated with this script. However, all other files contain errors and should fail validation (i. e. return error code **1**).
+Files with no errors end with the filename `_valid` and should pass validation with this script (i. e. return error code **0**). However, all other files contain errors and should fail validation (i. e. return error code **1**).
 
 ## Dependencies
 
