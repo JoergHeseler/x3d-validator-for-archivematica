@@ -56,7 +56,7 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
 
 ## Test
 
-To test this validator you can use the sample X3D files located in the [`test`](./test/) folder.
+To test this validator, you can use the sample X3D files located in the [`test`](./test/) folder.
 
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
