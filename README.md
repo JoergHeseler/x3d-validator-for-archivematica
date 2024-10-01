@@ -54,6 +54,14 @@ To install the **x3d_validator_for_archivematica** script, follow these steps:
     - **Command**: Select **Validate using x3d_validator**.
 - Click **Save**.
 
+## Test
+
+To test this validator you can use the sample X3D files located in the [`test`](./test/) folder.
+
+You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
+
+Files with no errors end with the filename `_valid` and should pass validation with this script (i. e. return error code **0**) when validated with this script. However, all other files contain errors and should fail validation (i. e. return error code **1**).
+
 ## Dependencies
 
 [Archivematica 1.13.2](https://github.com/artefactual/archivematica/releases/tag/v1.13.2) and the [X3D validation package](https://www.web3d.org/specifications/x3d.all.validation.zip) were used to analyze, design, develop and test this script.
