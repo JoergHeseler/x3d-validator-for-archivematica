@@ -72,6 +72,7 @@ As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are 
 
 ## Related projects
 
+- [3d_sample_files_for_digital_preservation_testing](https://github.com/JoergHeseler/3d_sample_files_for_digital_preservation_testing)
 - [dae_validator_for_archivematica](https://github.com/JoergHeseler/dae_validator_for_archivematica)
 - [gltf_validator_for_archivematica](https://github.com/JoergHeseler/gltf_validator_for_archivematica)
 - [siegfried_falls_back_on_fido_identifier_for_archivematica](https://github.com/JoergHeseler/siegfried_falls_back_on_fido_identifier_for_archivematica)
