@@ -17,7 +17,7 @@ To install the **x3d-validator-for-archivematica** script, follow these steps:
 - Fill in the following fields:
     - **The related tool**: Select **Archivematica script**.
     - **Description**: Enter `Validate using x3d-validator`.
-    - **Script**: Paste the entire content of the **x3d-validator.py** file.
+    - **Script**: Paste the entire content of the [**x3d-validator.py**](./src/x3d-validator.py) file.
     - **Script type**: Select **Python script**.
     - **Command usage**: Select **Validation**.
 - Click **Save**.
