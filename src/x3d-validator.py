@@ -1,4 +1,4 @@
-# Title: x3d_validator
+# Title: x3d-validator
 # Version: 1.0.0
 # Publisher: NFDI4Culture
 # Publication date: 2024, January 5th
