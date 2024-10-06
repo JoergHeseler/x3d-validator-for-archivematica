@@ -1,4 +1,4 @@
-# x3d-validator-for-archivematica
+# X3D Validator for Archivematica
 
 **x3d-validator-for-archivematica** is a script that enables [Archivematica](https://www.archivematica.org/) to validate Extensible 3D (X3D) files.
 
