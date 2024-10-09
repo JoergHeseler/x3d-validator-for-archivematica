@@ -1,10 +1,10 @@
 # X3D Validator for Archivematica
 
-**x3d-validator-for-archivematica** is a script that enables [Archivematica](https://www.archivematica.org/) to validate Extensible 3D (X3D) files.
+This repository provides a script that enables [Archivematica](https://www.archivematica.org/) to validate Extensible 3D (X3D) files.
 
 ## Installation
 
-To install the **x3d-validator-for-archivematica** script, follow these steps:
+To install the this script, follow these steps:
 
 ### 1. Download the official X3D schemas 
 
@@ -68,7 +68,7 @@ Files with no errors end with the filename `-valid` and should pass validation w
 
 ## Background
 
-As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are underway to enhance the capabilities of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **x3d-validator-for-archivematica** script to enable Extensible 3D (X3D) file validation in Archivematica, which is not supported by default in version 1.13.2, enhancing its 3D content preservation capabilities.
+As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are underway to enhance the capabilities of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides a script to enable Extensible 3D (X3D) file validation in Archivematica, which is not supported by default in version 1.13.2, enhancing its 3D content preservation capabilities.
 
 ## Related projects
 
