@@ -4,7 +4,7 @@ This repository provides a script that enables [Archivematica](https://www.archi
 
 ## Installation
 
-To install the this script, follow these steps:
+To install this script, follow these steps:
 
 ### 1. Download the official X3D schemas 
 
