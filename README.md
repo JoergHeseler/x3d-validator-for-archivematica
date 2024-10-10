@@ -72,11 +72,11 @@ As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are 
 
 ## Related projects
 
-- [3d-sample-files-for-digital-preservation-testing](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing)
-- [dae-validator-for-archivematica](https://github.com/JoergHeseler/dae-validator-for-archivematica)
-- [gltf-validator-for-archivematica](https://github.com/JoergHeseler/gltf-validator-for-archivematica)
-- [siegfried-falls-back-on-fido-identifier-for-archivematica](https://github.com/JoergHeseler/siegfried-falls-back-on-fido-identifier-for-archivematica)
-- [stl-validator-for-archivematica](https://github.com/JoergHeseler/stl-validator-for-archivematica)
+- [3D Sample Files for Digital Preservation Testing](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing)
+- [DAE Validator for Archivematica](https://github.com/JoergHeseler/dae-validator-for-archivematica)
+- [glTF Validator for Archivematica](https://github.com/JoergHeseler/gltf-validator-for-archivematica)
+- [Siegfried Falls Back on Fido Identifier for Archivematica](https://github.com/JoergHeseler/siegfried-falls-back-on-fido-identifier-for-archivematica)
+- [STL Validator for Archivematica](https://github.com/JoergHeseler/stl-validator-for-archivematica)
 
 ## Imprint
 
