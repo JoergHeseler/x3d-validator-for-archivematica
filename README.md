@@ -6,57 +6,62 @@ This repository provides a script that enables [Archivematica](https://www.archi
 
 To install this script, follow these steps:
 
-### 1. Download the official X3D schemas 
+### 1. Download the official X3D schemas
 
 - Create a folder `/usr/share/schemes` and a subfolder `/usr/share/schemes/x3d`.
 - Download the [X3D validation package](https://www.web3d.org/specifications/x3d.all.validation.zip) from the official website.
 - Unzip this package so that all XSD files are in the `/usr/share/schemes/x3d/` root folder, e. g. `/usr/share/schemes/x3d/x3d-3.3.xsd`.
 
 ### 2. Create a new validation command
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/fpcommand/create/).
 - Fill in the following fields:
-    - **The related tool**: Select **Archivematica script**.
-    - **Description**: Enter `Validate using x3d-validator`.
-    - **Script**: Paste the entire content of the [**x3d-validator.py**](./src/x3d-validator.py) file.
-    - **Script type**: Select **Python script**.
-    - **Command usage**: Select **Validation**.
+  - **The related tool**: Select **Archivematica script**.
+  - **Description**: Enter `Validate using x3d-validator`.
+  - **Script**: Paste the entire content of the [**x3d-validator.py**](./src/x3d-validator.py) file.
+  - **Script type**: Select **Python script**.
+  - **Command usage**: Select **Validation**.
 - Click **Save**.
 
 ### 3. Create a new validation rule for X3D 3.0
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Text (Markup): X3D: X3D v3.0 (fmt/579)**.
-    - **Command**: Select **Validate using x3d-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Text (Markup): X3D: X3D v3.0 (fmt/579)**.
+  - **Command**: Select **Validate using x3d-validator**.
 - Click **Save**.
 
 ### 4. Create a new validation rule for X3D 3.1
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Text (Markup): X3D: X3D v3.1 (fmt/580)**.
-    - **Command**: Select **Validate using x3d-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Text (Markup): X3D: X3D v3.1 (fmt/580)**.
+  - **Command**: Select **Validate using x3d-validator**.
 - Click **Save**.
 
 ### 5. Create a new validation rule for X3D 3.2
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Text (Markup): X3D: X3D v3.2 (fmt/581)**.
-    - **Command**: Select **Validate using x3d-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Text (Markup): X3D: X3D v3.2 (fmt/581)**.
+  - **Command**: Select **Validate using x3d-validator**.
 - Click **Save**.
 
 ### 6. Create a new validation rule for X3D 3.3
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Text (Markup): X3D: X3D v3.3 (fmt/582)**.
-    - **Command**: Select **Validate using x3d-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Text (Markup): X3D: X3D v3.3 (fmt/582)**.
+  - **Command**: Select **Validate using x3d-validator**.
 - Click **Save**.
 
 ## Test
 
-To test this validator, you can use the sample X3D files located [`here`](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/x3d).
+To test this validator, you can use the sample X3D files located [here](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/x3d).
 
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
