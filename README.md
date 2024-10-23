@@ -21,7 +21,7 @@ To install this script, follow these steps:
   - **Command**: Paste the entire content of the [**x3d-validator.py**](./src/x3d-validator.py) file.
   - **Script type**: Select **Python script**.
   - **Command usage**: Select **Validation**.
-  - Leave all other fields and comboboxes untouched.
+  - Leave all other input fields and combo boxes untouched.
 - Click **Save**.
 
 ### 3. Create a new validation rule for X3D 3.0
