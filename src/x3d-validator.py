@@ -25,6 +25,12 @@ def format_event_outcome_detail_note(format, version, result):
 
     return note
 
+def get_schemes_path_from_arguments():
+    for arg in sys.argv:
+        if arg.lower().startswith("--schemes-path="):
+            return arg.split("=", 1)[1].rstrip('/\\')
+    return '/usr/share/schemes/x3d'
+
 def main(target):
     try:
         try:
@@ -34,7 +40,7 @@ def main(target):
         target_xml_root = target_xml_tree.getroot()
         format = 'X3D'
         version = target_xml_root.attrib.get('version')
-        xsd_path = '/usr/share/schemes/x3d/x3d-'+version+'.xsd'
+        xsd_path = get_schemes_path_from_arguments() + '/x3d-' + version + '.xsd'
         # try:
         xsd_schema = etree.XMLSchema(etree.parse(xsd_path))
         # except etree.XMLSchemaParseError as e:
