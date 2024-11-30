@@ -64,9 +64,15 @@ To install this script, follow these steps:
 
 To test this validator, you can use the sample X3D files located [here](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/x3d).
 
+### In Archivematica:
+
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
 Files with no errors end with `valid` in their name and should pass validation with this script (i. e. return error code **0**). However, all other files contain errors and should fail validation (i. e. return error code **1**).
+
+### In the command line prompt:
+
+You can use the validator at the command line prompt by typing `python x3d-validator.py <x3d file path to validate> --schemes-path=<path to the x3d schemes>`.
 
 ## Dependencies
 
