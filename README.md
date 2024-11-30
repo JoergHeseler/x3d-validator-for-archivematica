@@ -72,7 +72,7 @@ Files with no errors end with `valid` in their name and should pass validation w
 
 ### In the command line prompt:
 
-You can use the validator at the command line prompt by typing `python x3d-validator.py <x3d file path to validate> --schemes-path=<path to the x3d schemes>`.
+You can use the validator at the command line prompt by typing `python x3d-validator.py <X3D file to validate> --schemes-path=<path to X3D schemes>`.
 
 ## Dependencies
 
