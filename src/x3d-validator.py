@@ -38,7 +38,7 @@ def main(target):
         except etree.XMLSyntaxError as e:
             raise X3DValidatorException(e)
         target_xml_root = target_xml_tree.getroot()
-        format = 'X3D'
+        format = 'X3D (Extensible 3D)'
         version = target_xml_root.attrib.get('version')
         xsd_path = get_schemes_path_from_arguments() + '/x3d-' + version + '.xsd'
         # try:
