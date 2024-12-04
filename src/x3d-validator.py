@@ -1,7 +1,8 @@
 # Title: x3d-validator
 # Version: 1.0.0
 # Publisher: NFDI4Culture
-# Publication date: January 5, 2024
+# Publication date: December 5, 2024
+# Author: Joerg Heseler
 # License: CC BY 4.0
 
 from __future__ import print_function
