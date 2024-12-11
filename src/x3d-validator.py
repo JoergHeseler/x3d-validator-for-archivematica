@@ -42,10 +42,10 @@ def main(target):
         format = 'X3D (Extensible 3D)'
         version = target_xml_root.attrib.get('version')
         xsd_path = get_schemes_path_from_arguments() + '/x3d-' + version + '.xsd'
-        # try:
-        xsd_schema = etree.XMLSchema(etree.parse(xsd_path))
-        # except etree.XMLSchemaParseError as e:
-            # raise X3DValidatorException(e)
+        try:
+            xsd_schema = etree.XMLSchema(etree.parse(xsd_path))
+        except OSError:
+            raise Exception("X3D schemes path not found. Use --schemes-path= to specify its path.")
         validation_successful = xsd_schema.validate(target_xml_tree)
         if not validation_successful:
             error_log = '\n'.join([str(error) for error in xsd_schema.error_log])
@@ -75,6 +75,9 @@ def main(target):
             ),
             file=sys.stderr,
         )
+        return ERROR_CODE
+    except Exception as e:
+        print(e, file=sys.stderr)
         return ERROR_CODE
 
 if __name__ == '__main__':
