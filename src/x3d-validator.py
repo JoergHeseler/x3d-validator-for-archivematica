@@ -13,6 +13,8 @@ from lxml import etree
 
 SUCCESS_CODE = 0
 ERROR_CODE = 1
+DEFAULT_X3D_SCHEMES_PATH = '/usr/share/schemes/x3d' 
+
 
 class X3DValidatorException(Exception):
     pass
@@ -30,9 +32,9 @@ def get_schemes_path_from_arguments():
     for arg in sys.argv:
         if arg.lower().startswith("--schemes-path="):
             return arg.split("=", 1)[1].rstrip('/\\')
-    return '/usr/share/schemes/x3d'
+    return DEFAULT_X3D_SCHEMES_PATH
 
-def main(target):
+def validate_x3d_file(target):
     try:
         try:
             target_xml_tree = etree.parse(target, parser=etree.XMLParser(huge_tree=True))
@@ -81,5 +83,15 @@ def main(target):
         return ERROR_CODE
 
 if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print(f'X3D Validator, version 1.0.0')
+        print()
+        print(f'This script validates X3D files against schemas provided by https://www.web3d.org/specifications/.')
+        print()
+        print(f'Usage: python x3d-validator.py <X3D file> [options]')
+        print()        
+        print(f'--schemes-path=<path to X3D schemes>    path to X3D schemes, default={DEFAULT_X3D_SCHEMES_PATH}')
+        sys.exit(0)
+
     target = sys.argv[1]
-    sys.exit(main(target))
+    sys.exit(validate_x3d_file(target))
