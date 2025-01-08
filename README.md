@@ -93,6 +93,10 @@ As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are 
 - [STL Metadata Extractor for Archivematica](https://github.com/JoergHeseler/stl-metadata-extractor-for-archivematica)
 - [STL Validator for Archivematica](https://github.com/JoergHeseler/stl-validator-for-archivematica)
 
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
 ## Acknowledgments
 
 Special thanks to the colleagues from the SLUB Dresden, specifically from the Infrastructure and Long-Term Availability division, for their support and valuable feedback during the development.
