@@ -62,7 +62,7 @@ To install this script, follow these steps:
 
 ## Test
 
-To test this validator, you can use the sample X3D files located [here](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/x3d).
+To test this validator, you can use the sample X3D files located [here](https://github.com/JoergHeseler/mesh-samples-for-preservation-testing/tree/main/x3d).
 
 ### In Archivematica:
 
