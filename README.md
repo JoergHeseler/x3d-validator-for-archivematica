@@ -82,17 +82,9 @@ You can use the validator at the command line prompt by typing `python x3d-valid
 
 As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are underway to enhance the capabilities of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides a script to enable Extensible 3D (X3D) file validation in Archivematica, which is not supported by default in version 1.13.2, enhancing its 3D content preservation capabilities.
 
-## Related projects
+## Related Projects
 
-- [DAE Validator for Archivematica](https://github.com/JoergHeseler/dae-validator-for-archivematica)
-- [glTF Metadata Extractor for Archivematica](https://github.com/JoergHeseler/gltf-metadata-extractor-for-archivematica)
-- [glTF Validator for Archivematica](https://github.com/JoergHeseler/gltf-validator-for-archivematica)
-- [Mesh Samples for Preservation Testing](https://github.com/JoergHeseler/mesh-samples-for-preservation-testing)
-- [Point Cloud Samples for Digital Preservation Testing](https://github.com/JoergHeseler/point-cloud-samples-for-preservation-testing)
-- [Siegfried Falls Back on Fido Identifier for Archivematica](https://github.com/JoergHeseler/siegfried-falls-back-on-fido-identifier-for-archivematica)
-- [STL Cleaner](https://github.com/JoergHeseler/stl-cleaner)
-- [STL Metadata Extractor for Archivematica](https://github.com/JoergHeseler/stl-metadata-extractor-for-archivematica)
-- [STL Validator for Archivematica](https://github.com/JoergHeseler/stl-validator-for-archivematica)
+- [NFDI4Culture 3D Reference Implementations](https://github.com/JoergHeseler/nfdi4culture-3d-reference-implementations)
 
 ## Contributing
 
